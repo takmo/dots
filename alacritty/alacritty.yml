@@ -34,8 +34,8 @@ draw_bold_text_with_bright_colors: false
 import:
 # - ~/.dots/vendor/alacritty-catppuccin/catppuccin-mocha.yml
 # - ~/.dots/vendor/alacritty-catppuccin/catppuccin-macchiato.yml
-- ~/.dots/vendor/alacritty-catppuccin/catppuccin-frappe.yml
+# - ~/.dots/vendor/alacritty-catppuccin/catppuccin-frappe.yml
 # - ~/.dots/vendor/alacritty-catppuccin/catppuccin-latte.yml
-# - ~/.dots/vendor/alacritty-nord/src/nord.yaml
+- ~/.dots/vendor/alacritty-nord/src/nord.yaml
 
 # all done <3
