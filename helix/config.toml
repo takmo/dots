@@ -1,0 +1,22 @@
+theme = "nord"
+
+[editor]
+bufferline = "always"
+color-modes = true
+
+[editor.soft-wrap]
+enable = true
+
+[editor.statusline]
+left = ["mode", "spacer", "version-control", "spinner", "selections"]
+center = ["file-name"]
+right = ["diagnostics", "position", "file-encoding", "total-line-numbers"]
+
+[editor.statusline.mode]
+normal = "NORMAL"
+insert = "INSERT"
+select = "SELECT"
+
+[keys.normal]
+C-j = ":bn"
+C-k = ":bp"
