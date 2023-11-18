@@ -17,6 +17,7 @@ This repository contains configuration for:
 - [Alacritty](https://github.com/alacritty/alacritty)
 - - [Catppuccin](https://github.com/catppuccin/alacritty)
 - - [Nord](https://github.com/nordtheme/alacritty)
+- [eza](https://github.com/eza-community/eza)
 - [Helix Editor](https://github.com/helix-editor/helix)
 - [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
 - [tmux](https://github.com/tmux/tmux)
