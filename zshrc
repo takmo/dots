@@ -30,12 +30,8 @@ fi
 ##### SETUP - VENDORED FILES
 #####
 
-if [ ! -d "${VENDOR}/alacritty-catppuccin" ]; then
-	git clone git@github.com:catppuccin/alacritty.git "${VENDOR}/alacritty-catppuccin"
-fi
-
-if [ ! -d "${VENDOR}/alacritty-nord" ]; then
-	git clone git@github.com:nordtheme/alacritty.git "${VENDOR}/alacritty-nord"
+if [ ! -d "${VENDOR}/alacritty-theme" ]; then
+	git clone git@github.com:alacritty/alacritty-theme.git "${VENDOR}/alacritty-theme"
 fi
 
 if [ ! -d "${VENDOR}/ohmyzsh" ]; then
@@ -55,7 +51,8 @@ if [ -d "${VENDOR}/ohmyzsh" ]; then
 	ZSH_TMUX_FIXTERM_WITH_256COLOR="alacritty"
 	ZSH_TMUX_CONFIG="${DOTS}/tmux/tmux.conf"
 
-	plugins=(brew git ripgrep tmux vi-mode)
+	# plugins=(brew git tmux vi-mode)
+	plugins=(brew tmux vi-mode nvm)
 
 	export ZSH="${VENDOR}/ohmyzsh"
 	source "${ZSH}/oh-my-zsh.sh"
@@ -67,6 +64,10 @@ fi
 
 if $(which eza >> /dev/null) ; then
 	alias ls="eza -l"
+fi
+
+if $(which rg >> /dev/null) ; then
+	alias rg="rg -S --color=always"
 fi
 
 alias please='sudo $(fc -n -l -1)'

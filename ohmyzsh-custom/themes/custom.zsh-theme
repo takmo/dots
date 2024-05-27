@@ -8,3 +8,5 @@ DIR="%{$fg[blue]%}%~%{$reset_color%}"
 
 PROMPT='[${TIME}] ${DIR} $(git_prompt_info)
 ${ARROW} '
+# PROMPT='[${TIME}] ${DIR}
+# ${ARROW} '
