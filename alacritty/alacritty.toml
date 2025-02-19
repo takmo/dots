@@ -1,3 +1,4 @@
+[general]
 import = [
   # "~/.dots/vendor/alacritty-theme/themes/everforest_light.toml"
   "~/.dots/vendor/alacritty-theme/themes/ayu_light.toml"
@@ -29,7 +30,7 @@ style = "Retina"
 [scrolling]
 history = 0
 
-[shell]
+[terminal.shell]
 program = "zsh"
 
 [window]
