@@ -1,13 +1,10 @@
+[general]
 import = [
-  # "~/.dots/vendor/alacritty-theme/themes/everforest_light.toml"
   "~/.dots/vendor/alacritty-theme/themes/ayu_light.toml"
 ]
 
-[colors]
-draw_bold_text_with_bright_colors = false
-
 [font]
-size = 15
+size = 14
 # size = 20
 
 [font.bold]
@@ -29,13 +26,9 @@ style = "Retina"
 [scrolling]
 history = 0
 
-[shell]
+[terminal.shell]
 program = "zsh"
 
 [window]
 option_as_alt = "Both"
 startup_mode = "Fullscreen"
-
-[window.padding]
-x = 1
-y = 1
