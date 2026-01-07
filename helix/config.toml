@@ -1,4 +1,7 @@
-# theme = "everforest_light"
+# [theme]
+# dark = "ayu_dark"
+# light = "ayu_light"
+
 theme = "ayu_light"
 
 [editor]
